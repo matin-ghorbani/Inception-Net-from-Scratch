@@ -2,6 +2,8 @@
 
 This repository contains an implementation of the Inception Network (GoogleNet) from scratch using PyTorch. The Inception architecture is a type of convolutional neural network (CNN) that was originally proposed by Szegedy et al. in the paper ["Going Deeper with Convolutions"](https://arxiv.org/abs/1409.4842).
 
+![Inception Architecture](./assets/Inception_archpng.png)
+
 ## Overview
 
 The Inception architecture introduces a novel approach to convolutional neural networks, where multiple types of convolutional layers (1x1, 3x3, 5x5) and pooling layers are used in parallel in each block. This allows the network to capture features at different scales, leading to improved performance on image classification tasks.
